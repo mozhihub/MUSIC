@@ -36,11 +36,11 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/poster-4.jpg",
-    title: "From Where We Started",
-    album: "No Spirit",
-    year: 2022,
-    artist: "No Spirit",
-    musicPath: "./assist/music/music-4.mp3",
+    title: "Ar.Rahuman Hits",
+    album: "tamil hits",
+    year:2000, 2022,
+    artist: "Ar.Rahuman",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/arrahuman.webm?alt=media&token=b6b3a0fc-d621-4e9e-ac9b-9f23164ef3bf",
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
