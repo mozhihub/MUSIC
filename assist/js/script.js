@@ -45,7 +45,7 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/town.jpeg",
-    title: "From Where We Started",
+    title: "இரவு நேர பேருந்து பாடல்கள் ",
     album: "tamil mini bus sons",
     year: 2000,
     artist: "tamil mini bus 3",
@@ -54,7 +54,7 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/90s.jpeg",
-    title: "From Where We Started",
+    title: "பேருந்து பாடல்கள் ",
     album: "mini bus songs",
     year: 1990,
     artist: "mini bus songs 2",
@@ -63,7 +63,7 @@ const musicData = [
     {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/minibus.jpeg",
-    title: "From Where We Started",
+    title: "பழைய கிராமிய இசை",
     album: "old is gold",
     year: 1990,
     artist: "old os gold",
@@ -72,7 +72,7 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/80s.jpeg",
-    title: "From Where We Started",
+    title: "90-களின் பாடல்கள் ",
     album: "Mini Bus Songs",
     year: 1980,
     artist: "mini bus songs",
@@ -81,7 +81,7 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-4.jpg",
     posterUrl: "./assist/images/Village.jpeg",
-    title: "From Where We Started",
+    title: "80-களின் பாடல்கள் ",
     album: "Tamil old songs",
     year: 1980,
     artist: "old songs",
@@ -90,7 +90,7 @@ const musicData = [
   {
     backgroundImage: "./assist/images/poster-5.jpg",
     posterUrl: "./assist/images/poster-5.jpg",
-    title: "Where I Found You",
+    title: "unknown",
     album: "No Spirit",
     year: 2022,
     artist: "No Spirit",
