@@ -35,7 +35,7 @@ const musicData = [
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/arrahuman.jpeg",
     title: "Ar.Rahuman Hits",
     album: "tamil hits",
     year:2000.2022,
@@ -44,7 +44,7 @@ const musicData = [
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/town.jpeg",
     title: "From Where We Started",
     album: "tamil mini bus sons",
     year: 2000,
@@ -53,7 +53,7 @@ const musicData = [
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/90s.jpeg",
     title: "From Where We Started",
     album: "mini bus songs",
     year: 1990,
@@ -62,7 +62,7 @@ const musicData = [
   },
     {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/minibus.jpeg",
     title: "From Where We Started",
     album: "old is gold",
     year: 1990,
@@ -71,7 +71,7 @@ const musicData = [
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/80s.jpeg",
     title: "From Where We Started",
     album: "Mini Bus Songs",
     year: 1980,
@@ -80,7 +80,7 @@ const musicData = [
   },
   {
     backgroundImage: "./assist/images/poster-4.jpg",
-    posterUrl: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/Village.jpeg",
     title: "From Where We Started",
     album: "Tamil old songs",
     year: 1980,
