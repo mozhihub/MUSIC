@@ -94,7 +94,25 @@ const musicData = [
     album: "No Spirit",
     year: 2022,
     artist: "No Spirit",
-    musicPath: "./assist/music/music-5.mp3",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/Dhilip_Varman_song_%F0%9F%92%9D_Evergreen_love_hits__Malasian_tamil_romantic.mp3?alt=media&token=c427ad22-c2c5-4fd2-9b4f-2a62f57c575f",
+  },
+  {
+    backgroundImage: "./assist/images/poster-5.jpg",
+    posterUrl: "./assist/images/poster-5.jpg",
+    title: "unknown",
+    album: "No Spirit",
+    year: 2022,
+    artist: "No Spirit",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/Hip_Hop_TamizhaJukeBoxTamil_Hits__Hip_Hop_Tamizha_Songs.mp3?alt=media&token=ec969219-eab9-4856-a4bc-5b9b5be13676",
+  },
+  {
+    backgroundImage: "./assist/images/poster-5.jpg",
+    posterUrl: "./assist/images/poster-5.jpg",
+    title: "unknown",
+    album: "No Spirit",
+    year: 2022,
+    artist: "No Spirit",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/%CA%9F%E1%B4%8F%E1%B4%A0%E1%B4%87_s%E1%B4%8F%C9%B4%C9%A2s_%E1%B4%8A%E1%B4%9C%E1%B4%8B%E1%B4%87%CA%99%E1%B4%8Fx_s%E1%B4%9B%E1%B4%87%E1%B4%98%CA%9C%E1%B4%87%C9%B4_%E1%B4%A2%E1%B4%87%E1%B4%84%CA%9C%E1%B4%80%CA%80%C9%AA%E1%B4%80%CA%9C_s%E1%B4%8F%C9%B4%C9%A2s_%23_%23lovesongs_%23.mp3?alt=media&token=9126d52d-6172-4fee-a722-5d9ec0f9af42",
   },
 ];
 
