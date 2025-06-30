@@ -4,7 +4,117 @@
 /**
  * all music information
  */
-www..
+
+const musicData = [
+  {
+    backgroundImage: "./assets/images/poster-1.jpg",
+    posterUrl: "./assist/images/poster-1.jpg",
+    title: "Tamil Latest Hit Songs |",
+    album: "Tamil Latest Hit Songs 2024 ",
+    year: 2023.2024,
+    artist: " Tamil Latest Hit Songs | Latest Tamil Songs | New Tamil Songs",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/videoplayback%20(1).mp3?alt=media&token=49cc9e20-9cbd-4d42-827a-cb3ae5ba484b",
+  },
+  {
+    backgroundImage: "./assets/images/poster-2.jpg",
+    posterUrl: "./assist/images/poster-2.jpg",
+    title: "Tamil Latest Hit Songs 2024 ",
+    album: "Tamil Latest Songs ",
+    year: 2024,
+    artist: "Tamil Latest Hit Songs 2024",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/videoplayback%20(2).mp3?alt=media&token=8391947d-c00d-43d2-952f-2ecb2570bf25",
+  },
+  {
+    backgroundImage: "./assist/images/poster-3.jpg",
+    posterUrl: "./assist/images/poster-3.jpg",
+    title: "90's to 2k's kid's couple songs",
+    album: "90's to 2k's kid's",
+    year: 1990.2024,
+    artist: "Tamil 2k vs 90s",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/videoplayback%20(3).mp3?alt=media&token=25aa0479-085d-4e40-8812-e6ac7056f879",
+  },
+  {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/arrahuman.jpeg",
+    title: "Ar.Rahuman Hits",
+    album: "tamil hits",
+    year:2000.2022,
+    artist: "Ar.Rahuman",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/arrahuman.mp3?alt=media&token=95027ac0-1613-4e53-8fd6-e99de4987aba",
+  },
+  {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/town.jpeg",
+    title: "இரவு நேர பேருந்து பாடல்கள் ",
+    album: "tamil mini bus sons",
+    year: 2000,
+    artist: "tamil mini bus 3",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/tamilmininbus2.mp3?alt=media&token=0986597e-c618-4201-99e0-3e8347d52f33",
+  },
+  {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/90s.jpeg",
+    title: "பேருந்து பாடல்கள் ",
+    album: "mini bus songs",
+    year: 1990,
+    artist: "mini bus songs 2",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/minibus2.mp3?alt=media&token=1d901ccf-1d6d-4b24-84db-73c500c99082",
+  },
+    {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/minibus.jpeg",
+    title: "பழைய கிராமிய இசை",
+    album: "old is gold",
+    year: 1990,
+    artist: "old os gold",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/oldes.mp3.m4a?alt=media&token=5cf36dc0-e4e7-4dc4-a2ba-cb12b3c92407",
+  },
+  {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/80s.jpeg",
+    title: "90-களின் பாடல்கள் ",
+    album: "Mini Bus Songs",
+    year: 1980,
+    artist: "mini bus songs",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/minibussongs.mp3?alt=media&token=c7a493ce-3f86-42d2-ba56-5db251cc9fe0",
+  },
+  {
+    backgroundImage: "./assist/images/poster-4.jpg",
+    posterUrl: "./assist/images/Village.jpeg",
+    title: "80-களின் பாடல்கள் ",
+    album: "Tamil old songs",
+    year: 1980,
+    artist: "old songs",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/oldsongs.mp3?alt=media&token=eb4006e5-06aa-48da-98d6-e9a2b5e4e4c7",
+  },
+  {
+    backgroundImage: "./assist/images/poster-5.jpg",
+    posterUrl: "./assist/images/poster-5.jpg",
+    title: "unknown",
+    album: "No Spirit",
+    year: 2022,
+    artist: "No Spirit",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/Dhilip_Varman_song_%F0%9F%92%9D_Evergreen_love_hits__Malasian_tamil_romantic.mp3?alt=media&token=c427ad22-c2c5-4fd2-9b4f-2a62f57c575f",
+  },
+  {
+    backgroundImage: "./assist/images/poster-5.jpg",
+    posterUrl: "./assist/images/poster-5.jpg",
+    title: "unknown",
+    album: "No Spirit",
+    year: 2022,
+    artist: "No Spirit",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/hiphop.mp3?alt=media&token=c83ca619-ceb3-4818-babf-0de28f575bf4",
+  },
+  {
+    backgroundImage: "./assist/images/poster-5.jpg",
+    posterUrl: "./assist/images/poster-5.jpg",
+    title: "unknown",
+    album: "No Spirit",
+    year: 2022,
+    artist: "No Spirit",
+    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/%CA%9F%E1%B4%8F%E1%B4%A0%E1%B4%87_s%E1%B4%8F%C9%B4%C9%A2s_%E1%B4%8A%E1%B4%9C%E1%B4%8B%E1%B4%87%CA%99%E1%B4%8Fx_s%E1%B4%9B%E1%B4%87%E1%B4%98%CA%9C%E1%B4%87%C9%B4_%E1%B4%A2%E1%B4%87%E1%B4%84%CA%9C%E1%B4%80%CA%80%C9%AA%E1%B4%80%CA%9C_s%E1%B4%8F%C9%B4%C9%A2s_%23_%23lovesongs_%23.mp3?alt=media&token=9126d52d-6172-4fee-a722-5d9ec0f9af42",
+  },
+];
 
 
 
