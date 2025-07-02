@@ -187,7 +187,7 @@ for (let i = 0, len = musicData.length; i < len; i++) {
   playlist.innerHTML += `
   <li>
     <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-      <img src="${musicData[i].posterUrl}" width="900" height="900" alt="${musicData[i].title} Album Poster"
+      <img src="${musicData[i].posterUrl}" width="800" height="800" alt="${musicData[i].title} Album Poster"
         class="img-cover">
 
       <div class="item-icon">
