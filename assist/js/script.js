@@ -296,8 +296,30 @@ const updateDuration = function () {
 
 audioSource.addEventListener("loadeddata", updateDuration);
 
+/**
+ * PLAY MUSIC
+ * 
+ 
+ * play and pause music when click on play button
+ */
+const playBtn = document.querySelector("[data-play-btn]");
 
-/*Music auto Play*/
+let playInterval;
+
+const playMusic = function () {
+  if (audioSource.paused) {
+    audioSource.play();
+    playBtn.classList.add("active");
+    playInterval = setInterval(updateRunningTime, 500);
+  } else {
+    audioSource.pause();
+    playBtn.classList.remove("active");
+    clearInterval(playInterval);
+  }
+}
+
+playBtn.addEventListener("click", playMusic);
+
 const audio = document.getElementById('audio');
 let currentIndex = 0; // Index of the currently playing song
 
@@ -312,18 +334,6 @@ audio.addEventListener('ended', () => {
 
   playSong(playlist[currentIndex]); // Load and play the next song
 });
-
-/**
- * PLAY MUSIC
- * 
- 
- * play and pause music when click on play button
- */
-
-
-
-
-
 /** update running time while playing music */
 
 const playerRunningTime = document.querySelector("[data-running-time");
