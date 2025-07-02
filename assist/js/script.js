@@ -320,23 +320,8 @@ audio.addEventListener('ended', () => {
  * play and pause music when click on play button
  */
 
-const playBtn = document.querySelector("[data-play-btn]");
 
-let playInterval;
 
-const playMusic = function () {
-  if (audioSource.paused) {
-    audioSource.play();
-    playBtn.classList.add("active");
-    playInterval = setInterval(updateRunningTime, 500);
-  } else {
-    audioSource.pause();
-    playBtn.classList.remove("active");
-    clearInterval(playInterval);
-  }
-}
-
-playBtn.addEventListener("click", playMusic);
 
 
 /** update running time while playing music */
