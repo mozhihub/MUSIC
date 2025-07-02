@@ -318,9 +318,8 @@ const playMusic = function () {
   }
 }
 
-playBtn.addEventListener("click", playMusic);
+playBtn.addEventListener("click", playMusic); 
 
- 
 /** update running time while playing music */
 
 const playerRunningTime = document.querySelector("[data-running-time");
