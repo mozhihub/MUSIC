@@ -320,20 +320,7 @@ const playMusic = function () {
 
 playBtn.addEventListener("click", playMusic);
 
-const audio = document.getElementById('audio');
-let currentIndex = 0; // Index of the currently playing song
-
-audio.addEventListener('ended', () => {
-  if (isShuffling) {
-    // If shuffle mode is active
-    currentIndex = Math.floor(Math.random() * playlist.length);
-  } else {
-    // Play next song in the list
-    currentIndex = (currentIndex + 1) % playlist.length;
-  }
-
-  playSong(playlist[currentIndex]); // Load and play the next song
-});
+ 
 /** update running time while playing music */
 
 const playerRunningTime = document.querySelector("[data-running-time");
