@@ -22,7 +22,7 @@ const musicData = [
     album: "Tamil Latest Songs ",
     year: 2024,
     artist: "Tamil Latest Hit Songs 2024",
-    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/videoplayback%20(2).mp3?alt=media&token=8391947d-c00d-43d2-952f-2ecb2570bf25",
+    musicPath: "https://t.me/music_gaana/2",
   },
   {
     backgroundImage: "./assist/images/poster-3.jpg",
