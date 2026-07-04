@@ -13,7 +13,7 @@ const musicData = [
     album: "Tamil Latest Hit Songs 2024 ",
     year: 2023.2024,
     artist: " Tamil Latest Hit Songs | Latest Tamil Songs | New Tamil Songs",
-    musicPath: "https://firebasestorage.googleapis.com/v0/b/storage-b08d5.appspot.com/o/videoplayback%20(1).mp3?alt=media&token=49cc9e20-9cbd-4d42-827a-cb3ae5ba484b",
+    musicPath: "audio/music/kaatray un vaasl vanthu.mp3",
   },
   {
     backgroundImage: "./assets/images/poster-2.jpg",
